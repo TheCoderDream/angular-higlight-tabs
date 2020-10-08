@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
    <div class="tabs">
     <app-tab>
-      <a routerLink="/" routerLinkActive="is-active">Home</a>
+      <a routerLink="/home" routerLinkActive="is-active">Home</a>
     </app-tab>
     <app-tab>
       <a

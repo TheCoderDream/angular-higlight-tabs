@@ -19,6 +19,11 @@ import { TabComponent } from './components/tab.component';
 const routes: Routes = [
   {
     path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+    {
+    path: 'home',
     component: HomeComponent,
     pathMatch: 'full'
   },
